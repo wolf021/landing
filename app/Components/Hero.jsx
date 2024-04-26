@@ -12,13 +12,13 @@ const Hero = () => {
             <div className=" space-x-5">
                 <a href='https://wa.me/+923214308481?text="I have a query about Car Insurance or Car selling"'>
 
-            <button className="  bg-purple-500 border border-purple-500  p-2 rounded-2xl hover:border-white hover:bg-transparent hover:text-white transition-all text-white  ">
+            <button className="  shadow-md  bg-purple-500 border border-purple-500  p-2 rounded-2xl hover:border-white hover:bg-transparent hover:text-white transition-all text-white  ">
               Get Quote
             </button>
                 </a>
                 <a href="tel:+923214308481">
                     
-            <button className=" border border-white text-white  p-2 rounded-2xl hover:bg-purple-500 transition-all hover:border-purple-500  ">
+            <button className="  shadow-md  border border-white text-white  p-2 rounded-2xl hover:bg-purple-500 transition-all hover:border-purple-500  ">
               Call us
             </button>
                 </a>

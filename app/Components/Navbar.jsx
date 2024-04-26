@@ -29,7 +29,7 @@ const Navbar = () => {
 
   return (
       
-    <div className={`w-full text-white h-[3rem] align-middle flex items-center md:justify-around justify-between   border-b fixed ${scrolled? "bg-black bg-opacity-80 " : "bg-transparent"} z-100 transition-all  `} >
+    <div className={`w-full text-white h-[3rem] align-middle flex items-center md:justify-around justify-between  z-40  border-b fixed ${scrolled? "bg-black bg-opacity-80 " : "bg-transparent"} z-100 transition-all  `} >
 
         <div className="text-white px-5 ">
             <Image width={50} src={Logo} alt="logo" />

@@ -23,7 +23,7 @@ const Accordion = ({ items }) => {
    
     <div className="w-full px-14 ">
       {items.map((item, index) => (
-        <div key={index} className="border rounded my-2">
+        <div key={index} className="border shadow-sm  rounded my-2">
           <div
             className="p-3 cursor-pointer"
             onClick={() => toggleAccordion(index)}

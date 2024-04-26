@@ -1,16 +1,18 @@
 import React from 'react'
+import Image from "next/image";
+import Badge from "../Assets/badge.png"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faQuestion } from '@fortawesome/free-solid-svg-icons';
 
-const Banner = () => {
+const Banner = ({Title, SubTitle, Icon}) => {
   return (
-    <div className='text-center my-10 space-y-4'>
-    <div className='text-center  flex flex-col md:flex-row space-y-3 px-3 md:py-0 justify-around  items-center '>
-         <h1 className=" text-3xl font-medium text-purple-500 ">
-            {`We work with the most trusted UK car insurance providers so you can compare cover and find the policy that's best for you.`}
-          </h1>
-          
-        
-    </div>
-    <p>{`We work with the most trusted UK car insurance providers so you can compare cover and find the policy that's best for you.`}</p>
+    <div className='flex  justify-center py-20 px-5  font-semibold items-end text-center' >
+      <div>
+
+      <h1 className='text-2xl animate-pulse '>{Title}</h1>
+      <p>{SubTitle}</p>
+      </div>
+      <FontAwesomeIcon className=' text-red-600  font-xl size-20' icon={faQuestion} beat />
     </div>
   )
 }

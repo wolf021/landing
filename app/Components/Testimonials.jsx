@@ -21,7 +21,7 @@ const Testimonials = () => {
       
     </div>
     <div className="grid grid-cols-1 md:grid-cols-3 w-full  md:space-x-10 space-y-10 md:space-y-0">
-            <div className=" border p-3 rounded-xl bg-white space-y-5 flex flex-col justify-between">
+            <div className=" border shadow-md p-3 rounded-xl bg-white space-y-5 flex flex-col justify-between">
                 <div className="flex  " >
                     <Image src={Star} height={30} alt="star" />
                     <Image src={Star} height={30} alt="star" />
@@ -32,7 +32,7 @@ const Testimonials = () => {
                 <h3> Made a car purchased from them. worth every dosh.</h3>
                 <div className="border-t-2">Preeya</div>
             </div>
-            <div className=" border p-3 rounded-xl flex flex-col justify-between bg-white space-y-5">
+            <div className=" border p-3 shadow-md  rounded-xl flex flex-col justify-between bg-white space-y-5">
                 <div className="flex  " >
                     <Image src={Star} height={30} alt="star" />
                     <Image src={Star} height={30} alt="star" />
@@ -43,7 +43,7 @@ const Testimonials = () => {
                 <h3>Kash got me best car insurance deal. highly recomanded </h3>
                 <div className="border-t-2">Mark</div>
             </div>
-            <div className=" border p-3 rounded-xl bg-white space-y-5 flex flex-col justify-between">
+            <div className=" border p-3 shadow-md  rounded-xl bg-white space-y-5 flex flex-col justify-between">
                 <div className="flex  " >
                     <Image src={Star} height={30} alt="star" />
                     <Image src={Star} height={30} alt="star" />
