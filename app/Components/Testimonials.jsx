@@ -13,42 +13,42 @@ const Testimonials = () => {
 
         </h3>
         <p>
-We're proud to share that our car insurance service is highly rated by our customers.</p>
+{`We're proud to share that our car insurance service is highly rated by our customers.`}</p>
     </div>
     <div className=" h-full md:w-1/2 md:mt-16 ">
-        <Image src={HeroImg} width={300} height={300} />
+        <Image src={HeroImg} width={300} height={300} alt="hero img" />
         </div>
       
     </div>
     <div className="grid grid-cols-1 md:grid-cols-3 w-full  md:space-x-10 space-y-10 md:space-y-0">
             <div className=" border p-3 rounded-xl bg-white space-y-5 flex flex-col justify-between">
                 <div className="flex  " >
-                    <Image src={Star} height={30} />
-                    <Image src={Star} height={30} />
-                    <Image src={Star} height={30} />
-                    <Image src={Star} height={30} />
-                    <Image src={Star} height={30} />
+                    <Image src={Star} height={30} alt="star" />
+                    <Image src={Star} height={30} alt="star" />
+                    <Image src={Star} height={30} alt="star" />
+                    <Image src={Star} height={30} alt="star" />
+                    <Image src={Star} height={30} alt="star" />
                 </div>
                 <h3> Made a car purchased from them. worth every dosh.</h3>
                 <div className="border-t-2">Preeya</div>
             </div>
             <div className=" border p-3 rounded-xl flex flex-col justify-between bg-white space-y-5">
                 <div className="flex  " >
-                    <Image src={Star} height={30} />
-                    <Image src={Star} height={30} />
-                    <Image src={Star} height={30} />
-                    <Image src={Star} height={30} />
-                    <Image src={Star} height={30} />
+                    <Image src={Star} height={30} alt="star" />
+                    <Image src={Star} height={30} alt="star" />
+                    <Image src={Star} height={30} alt="star" />
+                    <Image src={Star} height={30} alt="star" />
+                    <Image src={Star} height={30} alt="star" />
                 </div>
                 <h3>Kash got me best car insurance deal. highly recomanded </h3>
                 <div className="border-t-2">Mark</div>
             </div>
             <div className=" border p-3 rounded-xl bg-white space-y-5 flex flex-col justify-between">
                 <div className="flex  " >
-                    <Image src={Star} height={30} />
-                    <Image src={Star} height={30} />
-                    <Image src={Star} height={30} />
-                    <Image src={Star} height={30} />
+                    <Image src={Star} height={30} alt="star" />
+                    <Image src={Star} height={30} alt="star" />
+                    <Image src={Star} height={30} alt="star" />
+                     <Image src={Star} height={30} alt="star" />
                     
                 </div>
                 <h3>having hard time getting a new and inexpansive insurance . kash helped me to get insurance on great price. </h3>

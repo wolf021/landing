@@ -32,7 +32,7 @@ const Navbar = () => {
     <div className={`w-full text-white h-[3rem] align-middle flex items-center md:justify-around justify-between   border-b fixed ${scrolled? "bg-black bg-opacity-80 " : "bg-transparent"} z-100 transition-all  `} >
 
         <div className="text-white px-5 ">
-            <Image width={50} src={Logo} />
+            <Image width={50} src={Logo} alt="logo" />
         </div>
         <div className="  max-sm:hidden md:flex  list-none  space-x-10   ">
             <li className=" hover:text-purple-500 cursor-pointer "> <a href="/">Home</a> </li>

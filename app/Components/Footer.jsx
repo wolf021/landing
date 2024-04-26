@@ -11,7 +11,7 @@ const Footer = () => {
     <div className=' bg-gradient-to-r from-violet-800 via-violet-700 to-purple-500  text-white flex flex-col md:flex-row space-y-6 justify-around  py-10' id='contactus'>
     
     <div className='md:w-1/3  text-center space-y-3 items-center flex flex-col'>
-    <Image width={150} src={Logo} />
+    <Image width={150} src={Logo} alt='Logo' />
     <p>We are Car Buying/Selling and Insurance Brokers Company. since 2015 </p>
     </div>
     

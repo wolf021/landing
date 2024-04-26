@@ -10,12 +10,15 @@ const Service = () => {
           <h1 className=" text-3xl font-medium text-purple-500 ">
             Find the best deals on car insurance.{" "}
           </h1>
-          <p className="">
-            Get unbeatable deals on car buying and insurance with our expert
-            service. Whether you're purchasing a vehicle or insuring it, we
-            offer tailored solutions, exclusive discounts, and personalized
-            support for a seamless experience. Drive confidently knowing you've
-            secured the best deal possible.{" "}
+          <p className=""> 
+          {
+` Get unbeatable deals on car buying and insurance with our expert
+service. Whether you're purchasing a vehicle or insuring it, we
+offer tailored solutions, exclusive discounts, and personalized
+support for a seamless experience. Drive confidently knowing you've
+secured the best deal possible.`
+          }
+           
           </p>
           
         </div>
@@ -24,6 +27,7 @@ const Service = () => {
             className="rounded w-full h-full"
             src={ServiceImg}
             width={600}
+            alt="service image"
           />
         </div>
       </div>
@@ -33,11 +37,11 @@ const Service = () => {
             Buy your Car with Us.{" "}
           </h1>
           <p>
-            Get unbeatable deals on car buying and insurance with our expert
+            {` Get unbeatable deals on car buying and insurance with our expert
             service. Whether you're purchasing a vehicle or insuring it, we
             offer tailored solutions, exclusive discounts, and personalized
             support for a seamless experience. Drive confidently knowing you've
-            secured the best deal possible.{" "}
+            secured the best deal possible.`}
           </p>
           
         </div>
@@ -46,6 +50,7 @@ const Service = () => {
             className="rounded w-full h-full"
             src={ServiceImg}
             width={600}
+            alt="service image"
           />
         </div>
       </div>
