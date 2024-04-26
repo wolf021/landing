@@ -46,7 +46,9 @@ const Footer = () => {
     </div>
     <div className='text-center bg-gray-200 py-2 flex  justify-between px-10 '>
         <p className='' >AmiAutos®. 2024</p>
+        <a href="/privacy">
         <p className=' cursor-pointer hover:text-purple-500 ' >Privacy-Policy</p>
+        </a>
     </div>
     </>
   )
