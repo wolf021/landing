@@ -1,10 +1,10 @@
 import Image from "next/image";
-import HeroImg from "../Assets/malehero.avif"
+import HeroImg from "../Assets/testimonial.png"
 import Star from "../Assets/star.png"
 
 const Testimonials = () => {
   return (
-    <div className=" bg-gradient-to-r from-violet-800 via-violet-700 to-purple-500 py-10 px-10" id="testimonials">
+    <div className=" bg-gradient-to-r from-violet-800 via-violet-700 to-purple-500 py-10 px-14" id="testimonials">
     
     <div className=" grid grid-cols-1  py-10 md:py-0 md:grid-cols-2 items-center lg:space-x-[17rem]    " >
     <div className="space-y-4 text-white">
