@@ -28,7 +28,7 @@ const CarInfoPanel = () => {
         </div>
 
         <div className=' flex justify-around'>
-        <a href='https://wa.me/+923214308481?text="I have a query about Car Insurance or Car selling"'>
+        <a href='https://wa.me/+447534648820?text="I have a query about Car Insurance or Car selling"'>
 
         <button className=" shadow-md  animate-bounce self-center bg-purple-500 border border-purple-500 md:w-full p-2 rounded-2xl hover:border-purple-500 hover:bg-transparent hover:text-purple-500 transition-all text-white  ">
               Get Car Quote

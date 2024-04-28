@@ -23,12 +23,13 @@ export default function Home() {
   return (
     <div className="">
       <Hero/>
-      <Banner Title={`Ready for Your First Car or Need a New Ride? Let's Find the Perfect Match!`} SubTitle={`We are offering Discounts to Uk Buyers.`}/>
+      <Banner Title={`Ready for Your First Car or Need a New Ride? Let's Find the Perfect Match!`} SubTitle={`We are offering Discounts to International Students And foreigners
+ .`}/>
       <Service serviceImages={serviceimages}/>
       <Banner Title={`Having a Hard Time Getting Your Car Insured.`} SubTitle={`We are offering Discounts to International Students.`}/>
       <Service2/>
       <Banner2/>
-      <InfoPanel />
+      
       <CarInfoPanel/>
       <Testimonials/>
       <Acccordian items={accordionItems}/>

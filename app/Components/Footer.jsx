@@ -33,7 +33,7 @@ const Footer = () => {
         Social
         </h3>
         <ul className='flex space-x-6  justify-center size-32 items-center '>
-            <a href='https://wa.me/+923214308481?text="I have a query about Car Insurance or Car selling"
+            <a href='https://wa.me/+447534648820?text="I have a query about Car Insurance or Car selling"
 ' >
 
         <FontAwesomeIcon  icon={faWhatsapp} className=' hover:text-purple-300 cursor-pointer  size-8  ' />
