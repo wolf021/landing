@@ -5,7 +5,7 @@ const CarInfoPanel = () => {
   return (
     <div className='p-4 py-14 bg-white'>
         <div className='text-center space-y-5'>
-            <h1 className='text-4xl font-medium text-purple-500'>What do you buy Car from Us?</h1>
+            <h1 className='text-4xl font-medium text-purple-500'>Why do you buy from Us?</h1>
             <p>We are trusted by many and offer the prices reasonable from Markets.</p>
         </div>
         <div className='grid grid-cols-1 md:grid-cols-3 gap-10 my-14 px-6 md:px-14 '>
